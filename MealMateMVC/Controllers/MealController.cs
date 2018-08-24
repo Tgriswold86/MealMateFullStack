@@ -13,6 +13,7 @@ namespace MealMateMVC.Controllers
     public class MealController : Controller
     {
         // GET: Meal
+        // TODO Authorize
        public ActionResult Index()
        {
         var userId = Guid.Parse(User.Identity.GetUserId());

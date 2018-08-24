@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMate", "MealMate\MealMate.csproj", "{05C3170B-331C-42BB-8820-FB10E4142C69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateMVC", "MealMateMVC\MealMateMVC.csproj", "{A778D1D3-6D51-4F4C-B2C9-B177F0949E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateData", "MealMateData\MealMateData.csproj", "{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateModels", "MealMateModels\MealMateModels.csproj", "{F8F1DB75-905D-42D2-85D6-C75F86C058EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateContracts", "MealMateContracts\MealMateContracts.csproj", "{4B823091-C5F9-4A38-A8B4-2B206B5D50BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateServices", "MealMateServices\MealMateServices.csproj", "{EB1099A1-9D7E-4A3E-BFCB-C4AB81AA2664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealMateTests", "MealMateTests\MealMateTests.csproj", "{734534D7-B9F3-4E4F-A141-F39ED8242461}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +21,35 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05C3170B-331C-42BB-8820-FB10E4142C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05C3170B-331C-42BB-8820-FB10E4142C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05C3170B-331C-42BB-8820-FB10E4142C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05C3170B-331C-42BB-8820-FB10E4142C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A778D1D3-6D51-4F4C-B2C9-B177F0949E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A778D1D3-6D51-4F4C-B2C9-B177F0949E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A778D1D3-6D51-4F4C-B2C9-B177F0949E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A778D1D3-6D51-4F4C-B2C9-B177F0949E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F1DB75-905D-42D2-85D6-C75F86C058EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F1DB75-905D-42D2-85D6-C75F86C058EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F1DB75-905D-42D2-85D6-C75F86C058EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F1DB75-905D-42D2-85D6-C75F86C058EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B823091-C5F9-4A38-A8B4-2B206B5D50BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B823091-C5F9-4A38-A8B4-2B206B5D50BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B823091-C5F9-4A38-A8B4-2B206B5D50BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B823091-C5F9-4A38-A8B4-2B206B5D50BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1099A1-9D7E-4A3E-BFCB-C4AB81AA2664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1099A1-9D7E-4A3E-BFCB-C4AB81AA2664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1099A1-9D7E-4A3E-BFCB-C4AB81AA2664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1099A1-9D7E-4A3E-BFCB-C4AB81AA2664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734534D7-B9F3-4E4F-A141-F39ED8242461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734534D7-B9F3-4E4F-A141-F39ED8242461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734534D7-B9F3-4E4F-A141-F39ED8242461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734534D7-B9F3-4E4F-A141-F39ED8242461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {89DDF13F-E58F-4806-86E4-08E77A3E8B6C}
+		SolutionGuid = {C3407F3B-146A-44CC-AADC-725EA846CA5F}
 	EndGlobalSection
 EndGlobal

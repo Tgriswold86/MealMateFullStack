@@ -92,7 +92,7 @@ namespace MealMateMVC.Controllers
 
      if (service.UpdateMeal(model))
             {
-                TempData["SaveResult"] = "Your meal was updated.";
+                TempData["SaveResult"] = "Your entry was updated.";
                 return RedirectToAction("Index");
             }
 
@@ -116,7 +116,7 @@ namespace MealMateMVC.Controllers
 
             service.DeleteMeal(id);
 
-            TempData["SaveResult"] = "Your note was deleted";
+            TempData["SaveResult"] = "Your entry was deleted";
 
             return RedirectToAction("Index");
         }

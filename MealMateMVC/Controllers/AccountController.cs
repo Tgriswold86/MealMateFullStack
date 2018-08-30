@@ -9,8 +9,8 @@ using MealMateMVC;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MealMate.WebMvc.Models;
-using MealMateMVC.Data;
+using MealMateMvc.Models;
+using MealMateData;
 
 namespace MealMate.WebMvc.Controllers
 {

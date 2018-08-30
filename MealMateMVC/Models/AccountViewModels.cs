@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace MealMate.WebMvc.Models
+namespace MealMateMvc.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

@@ -3,11 +3,10 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
 using Owin;
-using MealMate.Data;
 using MealMateData;
 
-[assembly: OwinStartupAttribute(typeof(MealMate.WebMvc.Startup))]
-namespace MealMate.WebMvc
+[assembly: OwinStartupAttribute(typeof(MealMateMvc.Startup))]
+namespace MealMateMvc
 {
     public partial class Startup
     {

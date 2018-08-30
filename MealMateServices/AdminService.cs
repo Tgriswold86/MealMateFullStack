@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
-using MealMate.Data;
+using MealMateData;
 using MealMateContracts;
 using MealMate.Models.AdminModels;
 using Microsoft.Owin;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using MealMate.Contracts;
-using MealMateData;
+using Microsoft.AspNet.Identity;
 
 namespace MealMate.Services
 {
@@ -36,7 +36,24 @@ namespace MealMate.Services
 
         public bool IsAdminUser()
         {
-            throw new NotImplementedException();
+            using (var context = new ApplicationDbContext())
+            {
+                try
+                {
+                    var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+                    var s = userManager.GetRoles(_userId.ToString());
+                    if (s.Count != 0 && s[0].ToString() == "Admin")
+                        return true;
+                    else
+                        return false;
+                }
+
+                catch (Exception)
+                {
+                    throw;
+                }
+
+            }
         }
 
         IEnumerable<MealMateData.ApplicationUser> IAdminService.GetUserList()

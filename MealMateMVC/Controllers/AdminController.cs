@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using MealMate.Data;
+using MealMateData;
 using MealMate.Models.AdminModels;
 using MealMateServices;
-using MealMate.WebMvc.Models;
+using MealMateMvc.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

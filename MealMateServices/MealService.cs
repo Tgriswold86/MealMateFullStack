@@ -1,7 +1,6 @@
-﻿using MealMate.Data;
+﻿using MealMateData;
 using MealMateContracts;
 using MealMateModels;
-using MealMateMVC.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;

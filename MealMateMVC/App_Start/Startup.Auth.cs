@@ -5,10 +5,12 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using MealMateMVC.Models;
-using MealMateMVC.Data;
 
-namespace MealMateMVC
+using MealMateMVC.Models;
+using MealMateData;
+using MealMateMVC;
+
+namespace MealMateMvc
 {
     public partial class Startup
     {

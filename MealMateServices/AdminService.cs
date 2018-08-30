@@ -2,10 +2,8 @@
 using MealMate.Data;
 using MealMateContracts;
 using MealMate.Models.AdminModels;
-using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using System.Collections.Generic;
-using MealMateMVC.Data;
 using System;
 using System.Linq;
 using MealMate.Contracts;

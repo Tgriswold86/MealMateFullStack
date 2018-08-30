@@ -5,14 +5,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using MealMateData;
 using MealMateMVC;
-using MealMateMVC.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MealMate.Data;
 using MealMate.WebMvc.Models;
+using MealMateMVC.Data;
 
 namespace MealMate.WebMvc.Controllers
 {

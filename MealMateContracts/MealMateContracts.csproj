@@ -74,6 +74,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MealMateData\MealMateData.csproj">
+      <Project>{855B3FDC-D528-4C0F-A27D-D0EDDC662E8F}</Project>
+      <Name>MealMateData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MealMateModels\MealMateModels.csproj">
       <Project>{F8F1DB75-905D-42D2-85D6-C75F86C058EA}</Project>
       <Name>MealMateModels</Name>

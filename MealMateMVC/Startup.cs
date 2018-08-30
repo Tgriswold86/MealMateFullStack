@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
 using Owin;
 using MealMate.Data;
+using MealMateData;
 
 [assembly: OwinStartupAttribute(typeof(MealMate.WebMvc.Startup))]
 namespace MealMate.WebMvc

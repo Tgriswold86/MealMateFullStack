@@ -92,3 +92,5 @@ namespace MealMateData
         {
             return new ApplicationDbContext();
         }
+    }
+}

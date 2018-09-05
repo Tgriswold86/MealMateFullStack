@@ -24,6 +24,8 @@ namespace MealMateMVC
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/nivo-slider-theme.css",
+                      "~/Content/nivo-slider.css",
                       "~/Content/site.css"));
         }
     }
